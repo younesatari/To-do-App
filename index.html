@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>To Do!</title>
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <h1>To Do List</h1>
+      <!-- Form -->
+      <form id="form">
+         <input type="text" class="text" placeholder="Name...">
+         <button for="text" type="submit" class="add-item">Add Item</button>
+      </form>
+      <!-- List Items-->
+      <ul class="list-items"></ul>
+      <!-- Clear Items -->
+      <button class="clear-items">Clear Items</button>
+   </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
